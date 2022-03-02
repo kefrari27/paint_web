@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Paint Web</title>
+      <link rel="stylesheet" href="./src/style.css">
+    </head>
+    <body>
+      <div class="welcome">
+        <h1>Welcome to "Paint Web"</h1>
+        <p>This is a web to draw. You can change the color or the width of the line.</p>
+      </div>
+      <div class="select">
+        <p>
+          Select the color of the line: 
+          <input type="color" id="seleccionColor">
+        </p>
+        <p>
+          Select the width of the line:
+          <input type="range" id="seleccionGrosor" min="1" max="5">
+        </p>
+      </div>
+      <div class="canvas">
+        <p>Use the left click to draw!</p>
+        <canvas width="500" height="500" id="areaDibujo"></canvas>
+      </div>
+      <footer>Made by Kevin</footer>
+      <script src="./src/app.js"></script>
+    </body>
+  </html>

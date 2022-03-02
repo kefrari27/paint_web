@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Fredoka:wght@400;700&family=Mochiy+Pop+P+One&display=swap');
+
+/* style welcome */
+body{
+  color: #fff;
+  font-family: 'Fredoka', sans-serif;
+  background: linear-gradient(90deg, rgba(251,174,231,1) 0%, rgba(195,55,241,1) 50%, rgba(110,97,238,1) 100%);
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background: radial-gradient(circle, rgba(63,251,157,1) 0%, rgba(210,70,252,1) 100%);
+}
+
+.welcome h1{
+  font-size: 35px;
+}
+
+/* Style select */
+
+.select{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background: radial-gradient(circle, rgba(63,251,157,1) 0%, rgba(210,70,252,1) 100%);
+  margin: 20px 0px;
+}
+
+/* Style canvas */
+
+.canvas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas #areaDibujo{
+  /* width: 500px;
+  height: 500px; */
+  border: solid 2px #000;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background-color: #fff;
+}
+
+/* Style footer */
+
+footer{
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background: radial-gradient(circle, rgba(63,251,157,1) 0%, rgba(210,70,252,1) 100%);
+  margin: 20px 0px;
+}
